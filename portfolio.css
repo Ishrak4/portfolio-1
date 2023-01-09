@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+     display:flex; /*eita sobgula lekha ek line e anar jonno */
+    justify-content: space-between;
+    margin: 0px 250px; /*eita h1 and ul er modhe space create korar jonno*/
+
+}
+/*header and navigations styles*/
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+nav ul{
+    display: flex;
+    align-items: center; /*sob lekha center e align korar jonno*/
+}
+nav li{
+    list-style:none ;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    font-weight: 700;
+    color: aliceblue;
+    height: 60px;
+    border: none;
+    font-size:20px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding:18px 35px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin:0 0 100px 250px;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 85px;
+}
+.banner-sub-title{
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 25px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.header{
+    background:rgb(243, 234, 234);
+    background-image: url("portfolio-resources/images/header_bg.png"),url('portfolio-resources/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+.about-main{
+    width:1300px;
+    margin-left:260px;
+}
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding:130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+.section-description{
+    font-weight: 400;
+    font-family: 'Open Sans';
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.table-titles{
+    display: flex;
+    list-style-type:none;
+
+}
+.titless{
+    margin: 80px;
+    font-family: 'Open Sans';
+}
+.titl1{
+    margin-top:-74px;
+    margin-left: 70px;
+    font-family: 'Open Sans';
+    font-weight: bold; 
+}
+.titl2{
+    margin-top:-74px;
+    margin-left: 89px;
+    font-family: 'Open Sans';
+    font-weight: bold; 
+}
+.titl3{
+    margin-top:-74px;
+    margin-left: 106px;
+    font-family: 'Open Sans';
+    font-weight: bold; 
+}
+.titl4{
+    margin-top:-74px;
+    margin-left: 100px;
+    font-family: 'Open Sans';
+    font-weight: bold; 
+}
+.about2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    margin-top: -110px;
+}
+.experties{
+background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 20px;
+width: 287px;
+height: 300px;
+left: 200px;
+display: inline-block;
+margin-left: 14px;
+}
+.h2-class{
+    margin-top: 8px;
+    margin-bottom: 5px;
+
+}
+.p-class{
+    color:#757575;
+    text-align: start;
+}
+.about3{
+    text-align: center;
+    margin-top: 157px;
+    margin-bottom: 86;
+    font-family: 'Open Sans';
+    font-style:normal;
+    font-weight:bolder;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+
+}
+.h1-classs{
+    margin-top: 86px;
+    margin-left: 230px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    display: inline-block;
+    align-items: center;
+    margin-left: 400px;
+}
+.h1-new{
+    list-style-type: none;
+    display: flex;
+    margin-top: 86px;
+    margin-left: 379px;
+    color:#474747;
+}
+.h-new-class{
+    list-style-type: none;
+    display: flex;
+    margin-left: 379px;
+}
+.linew{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+margin-top: 20px;
+}
+.para{
+    display: inline-block;
+    width: 405px;
+    margin-left:420px ;
+    margin-top: 20px;
+    border-bottom: #181818;
+    border-bottom-style:solid;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    border-color: #757575;
+    border-width:1px ;
+}
+.footer{
+    width: 1900px;
+height: 780px;
+background: #FFF8F3;
+}
+.h1part{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-top: 60px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+}
+.last-part{
+    list-style-type: none;
+    display: flex;
+    margin-left: 160px;
+}
+.para2{
+    width: 562px;
+}
